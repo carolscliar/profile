@@ -17,11 +17,17 @@ line-height: 1.2;
 font-size: 20px;
 }
 
+.sub-description {
+  line-height: 1.2;
+font-size: 20px;
+}
+
 img {
   width: 150px;
   height: 150px;
   border-radius: 55%;
 }
+
 
 .list {
   list-style: none;
@@ -42,39 +48,10 @@ img {
 
 .white-box {
   background-color: white;
-  width: 700px;
+  width: 600px;
   padding: 46px;
   margin: 32px auto;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-align: center;
-}
-
-.press {
-  background-color: #199319;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 15px;
-  padding: 15px 25px;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-@media (max-width: 960px) {
-  .white-box {
-    width: 600px;
-  }
-}
-
-@media (max-width: 720px) {
-  .white-box {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .white-box {
-    width: 300px;
-  }
 }
